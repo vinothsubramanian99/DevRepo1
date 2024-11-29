@@ -45,11 +45,7 @@ namespace ApiProject3.Controllers
                     return Ok(data);
                 }
            // }
-           /* catch (Exception ex)
-            {
-                _logger.LogError(ex, "An error occurred while retrieving data");
-                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request.");
-            }*/
+        
         }
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] LoanDetailDTO loan)
