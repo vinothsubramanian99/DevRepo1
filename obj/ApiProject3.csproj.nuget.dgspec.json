@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VSCode\\ApiProject3\\ApiProject3.csproj": {}
+    "D:\\vinoth\\VsCode\\DevRepo1\\ApiProject3.csproj": {}
   },
   "projects": {
-    "D:\\VSCode\\ApiProject3\\ApiProject3.csproj": {
+    "D:\\vinoth\\VsCode\\DevRepo1\\ApiProject3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSCode\\ApiProject3\\ApiProject3.csproj",
+        "projectUniqueName": "D:\\vinoth\\VsCode\\DevRepo1\\ApiProject3.csproj",
         "projectName": "ApiProject3",
-        "projectPath": "D:\\VSCode\\ApiProject3\\ApiProject3.csproj",
-        "packagesPath": "C:\\Users\\vinoth.s\\.nuget\\packages\\",
-        "outputPath": "D:\\VSCode\\ApiProject3\\obj\\",
+        "projectPath": "D:\\vinoth\\VsCode\\DevRepo1\\ApiProject3.csproj",
+        "packagesPath": "C:\\Users\\Balajeeraj\\.nuget\\packages\\",
+        "outputPath": "D:\\vinoth\\VsCode\\DevRepo1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vinoth.s\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Balajeeraj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

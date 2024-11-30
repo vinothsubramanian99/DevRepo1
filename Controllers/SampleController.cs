@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-//using ApiProject3.Models;
+using ApiProject3.Models;
 
 namespace ApiProject3.Controllers
 {
@@ -20,11 +20,11 @@ namespace ApiProject3.Controllers
         private readonly AdventureWorksContext _db;
         private readonly ILogger<SampleController> _logger;
 
-        public SampleController(AdventureWorksContext db, ILogger<SampleController> logger)
-        {
-            _db = db;
-            _logger = logger;
-        }
+       // public SampleController(AdventureWorksContext db, ILogger<SampleController> logger)
+       // {
+        //    _db = db;
+        //    _logger = logger;
+      //  }
 
         [HttpGet("")]
         public async Task<IActionResult> Get()
