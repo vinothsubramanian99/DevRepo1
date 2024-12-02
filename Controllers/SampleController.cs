@@ -13,6 +13,9 @@ using Microsoft.Extensions.Logging;
 
 namespace ApiProject3.Controllers
 {
+
+
+    
     [Route("api/[controller]")]
     [ApiController]
     public class SampleController : ControllerBase
